@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Current_Converter</string>
+    <string name="Cantidad">Cantidad a convertir</string>
+    <string name="Convertir">Convertir</string>
+    <string name="MonedaOrigen">Moneda Origen</string>
+    <string name="MonedaDestino">Moneda Destino</string>
+</resources>

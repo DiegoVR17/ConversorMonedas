@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/Cantidad"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="@string/Cantidad"
+       android:inputType="number"
+       android:layout_gravity="center_horizontal">
+
+   </EditText>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/MonedaOrigen"
+          android:textColor="@color/red">
+      </TextView>
+
+      <Spinner
+          android:id="@+id/spinMonOrig"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+      </Spinner>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/MonedaDestino"
+          android:textColor="@color/red">
+      </TextView>
+
+      <Spinner
+          android:id="@+id/spinMonDes"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Spinner>
+
+
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/ButtonConvert"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/Convertir"
+       android:textColor="@color/red"
+       android:layout_gravity="center_horizontal">
+
+   </Button>
+
+   <TextView
+       android:id="@+id/tvConversion"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textColor="@color/darkred"
+       android:textSize="15dp"
+       android:textAlignment="center">
+
+   </TextView>
+
+
+</LinearLayout>
